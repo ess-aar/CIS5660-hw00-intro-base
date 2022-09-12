@@ -19,8 +19,8 @@ class Camera {
       eye: position,
       center: target,
     });
-    vec3.add(this.target, this.position, this.direction);
-    mat4.lookAt(this.viewMatrix, this.controls.eye, this.controls.center, this.controls.up);
+    vec3.add(this.target, this.position, this.direction);     // is the output stored in target or direction???
+    mat4.lookAt(this.viewMatrix, this.controls.eye, this.controls.center, this.controls.up);    // generates a look-at matrix with the given eye position, focal point, and up axis
   }
 
   setAspectRatio(aspectRatio: number) {
