@@ -7,11 +7,25 @@
 
 ## Custom Fragment Shaders
 
+### Perlin with static
+
+3D Perlin with 3D static noise that interacts with the base color based on the base color value. USed Mix And Smoothtep functions to interpolate between the perlin and static noise.
+
+![](./images/hw0_5.png)
+
 ### Inner plusing glow
+
+Built on top of previous one. Brighter parts of Perlin are additive to the base color and ease in and out with time.
 
 ![](./images/hw0_1.png)
 
-Brighter parts of Perlin are additive to the base color and ease in and out with time.
+## Custom Vertex Shaders
+
+### Wave
+
+Offset the vertex positions using sin and cos functions by time, and by different frequency and amplitudes in different axes.
+
+![](./images/hw0_3.png)
 
 ## Objective
 - Check that the tools and build configuration we will be using for the class works.
