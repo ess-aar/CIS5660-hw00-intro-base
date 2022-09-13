@@ -5,6 +5,14 @@
 </p>
 <p align="center">(source: Ken Perlin)</p>
 
+## Custom Fragment Shaders
+
+### Inner plusing glow
+
+![](./images/hw0_1.png)
+
+Brighter parts of Perlin are additive to the base color and ease in and out with time.
+
 ## Objective
 - Check that the tools and build configuration we will be using for the class works.
 - Start learning Typescript and WebGL2
