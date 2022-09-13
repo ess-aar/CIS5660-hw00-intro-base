@@ -30,8 +30,8 @@ enum fragShaders {
 // This will be referred to by dat.GUI's functions that add GUI elements.
 const controls = {
   tesselations: 5,
-  // color: [255, 194, 0, 1],
-  color: [72,160,255,1],
+  color: [255, 194, 0, 1],
+  // color: [72,160,255,1],
   shape: Object.cube,
   fragmentshader: fragShaders.custom2,
   vertexshader: vertShaders.lambert,
